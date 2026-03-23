@@ -33,6 +33,6 @@ def possibleWays(n, m, k):
     return dp[m][n]
 
 # Driver code
-n, m, k = 3, 3, 2
+n, m, k = 3, 3, 2   
 
 print('Number of ways is: ',possibleWays(n, m, k))
